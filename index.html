@@ -229,15 +229,16 @@
                       <img src="imagenes/appointment-booking-illustrated_23-2148562404.jpg"></iframe>
                      </div>
 
-                     <form action="">
+                     <form action="" method="POST" id="form">
                        <h3>Reserva un turno</h3>
-                       <input type="text" placeholder="Nombre completo" class="box">
+                       <input type="text" placeholder="Nombre completo" class="box" id="name">
                        <input type="number" placeholder="Número de celular" class="box">
-                       <input type="email" placeholder="email" class="box">
+                       <input type="email" placeholder="email" class="box" id="email">
                        <input type="date" class="box">
-                       <input type="submit" value="Reserva ahora" class="btn">
-
+                       <button type="submit" class="btn"> Reserva ahora </button>
+                       <p class="warnings" id="warnings"></p>
                      </form>
+
 
                  </div>
 

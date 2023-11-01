@@ -499,7 +499,14 @@ aumenta su tamaño un poco con scale 1.2 */
     color: #69e0a5;
 }
 
-
+/* estilo para el formulario */
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: red;
+    padding-top: 20px;
+}
 
 
 
